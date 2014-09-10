@@ -2,11 +2,11 @@
 
 A jQuery plugin that populates city, state and country fields from a zip code field.
 
-Will fetch on blur
+Will fetch when the input field is deselected (on blur).
 
 ## Usage
 
-Relies on the API at [Ziptastic](http://getziptastic.com). If you don't want to rely on a third-party, you can run your own API server. The source can be found at the [Ziptastic Github Repo](https://github.com/daspecster/ziptastic). Just pass in the API address to `apiEndPoint` in the plugin options (default is `http://zip.getziptastic.com/v2/US/`)
+Relies on the API at [Ziptastic](http://getziptastic.com). If you don't want to rely on a third-party, you can run your own API server. The source can be found on the [Ziptastic Github Repo](https://github.com/daspecster/ziptastic). Just pass in the API address to `apiEndPoint` in the plugin options (default is `http://zip.getziptastic.com/v2/US/`).
 
 
 ```html
