@@ -1,0 +1,23 @@
+{
+  "name": "jquery-zipPopulate",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jyunderwood/jquery-zipPopulate",
+  "authors": [
+    "Jonathan Underwood <jonathan@jyunderwood.com>"
+  ],
+  "description": "A jQuery plugin that populates city, state and country fields from a zip code field.",
+  "main": "zippopulate.jquery.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests",
+    "example.html",
+    "zippopulate.jquery.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "jquery": ">=1.4"
+  }
+}

@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>zipPopulate</title>
+</head>
+<body>
+
+<p>
+  <label for="zip_code">Zip Code</label>
+  <input type="text" name="zip_code" id="zipCodeField" />
+</p>
+
+<p>
+  <label for="city">City</label>
+  <input type="text" name="city" id="cityField" />
+</p>
+
+<p>
+  <label for="state">State</label>
+  <input type="text" name="state" id="stateField" />
+</p>
+
+<p>
+  <label for="country">Country</label>
+  <input type="text" name="country" id="countryField" />
+</p>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="zippopulate.jquery.js"></script>
+
+<script>
+  $('#zipCodeField').zipPopulate({
+    city: "#cityField",
+    state: "#stateField",
+    country: "#countryField"
+  });
+</script>
+</body>
+</html>
